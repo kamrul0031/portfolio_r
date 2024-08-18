@@ -49,7 +49,7 @@ function Contact() {
                         </div>
                         <ul>
                             <li className="uppercase text-gray-400">location</li>
-                            <li className=''>bangladesh,chattogram, <br /> bandar,4200</li>
+                            <li className='text-xs md:text-sm'>bangladesh,chattogram, <br />bandar,4200</li>
                         </ul>
                     </motion.li>
                    
