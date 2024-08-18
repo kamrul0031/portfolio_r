@@ -1,0 +1,9 @@
+load the alexa after ProImg load
+
+1.About Page desktop layout setup (responsive)
+2.proper setup all svg icons
+    home page twiter -> x
+    github svg add in technologies section
+3.repalce all lorem texts / template texts
+4.set best fonts // optional
+5.
