@@ -62,7 +62,7 @@ function About() {
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-b border-l  bg-slate-800 rounded-[2rem] md:col-span-1 p-9 flex flex-col gap-2 justify-center"
+        className="border-b border-l  bg-slate-800 rounded-[2rem] p-9 flex flex-col gap-2 justify-center"
       >
         <h1 className="uppercase text-xl font-medium">education</h1>
         <ul className="capitalize flex flex-col gap-5">
@@ -94,7 +94,7 @@ function About() {
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-r border-b bg-slate-800 md:row-span-5 rounded-[2rem] p-9 flex flex-col gap-4 justify-center"
+        className="border-r border-b bg-slate-800  rounded-[2rem] p-9 flex flex-col gap-4 justify-center"
       >
         <h1 className="uppercase text-xl font-medium">profiles</h1>
         <ul className="flex gap-7 justify-center ">
