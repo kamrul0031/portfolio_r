@@ -1,7 +1,7 @@
 
 function Rt() {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex absolute items-center justify-center h-screen">
       <svg
         viewBox="0 0 100 100"
         className="w-64 h-64"
@@ -15,8 +15,8 @@ function Rt() {
                a 37,37 0 1,1 -74,0"
           />
         </defs>
-        <text fontFamily="Arial" fontSize="10">
-          <textPath href="#circlePath" startOffset="10%">
+        <text fontFamily="Arial" fill="white" fontSize="10">
+          <textPath className="text-white" href="#circlePath" startOffset="10%">
             who am i 
           </textPath>
         </text>

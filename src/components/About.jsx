@@ -1,6 +1,7 @@
 import ProImg from "../assets/ProImg.png";
 import { motion } from "framer-motion";
 import ContainerVariant from "../lib/LoadMotion";
+// import Rt from "./Rt";
 
 const { hidden, visible } = ContainerVariant;
 function About() {
@@ -15,10 +16,36 @@ function About() {
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-t border-r md:relative md:h-[22rem] md:col-span-2 md:row-span-3 bg-slate-800 rounded-[2rem] p-5 flex flex-col gap-2 items-center"
+        className="border-t border-r relative md:h-[22rem] md:col-span-2 md:row-span-3 bg-slate-800 rounded-[2rem] p-5 flex flex-col gap-2 items-center"
       >
         <img className="rounded-full md:h-[20rem]" src={ProImg} alt="" />
-        <h1 className="capitalize text-2xl font-bold font-mono md:-rotate-45 md:top-10 md:absolute md:left-0">who am i </h1>
+      <svg
+        viewBox="0 0 100 100"
+        className=" md:h-[20rem] h-[22rem] absolute "
+      >
+        <defs>
+          <path
+            id="circlePath"
+            d="M 50, 50
+               m -37, 0
+               a 37,37 0 1,1 74,0
+               a 37,37 0 1,1 -74,0"
+          />
+        </defs>
+        <text fontFamily="Arial" fill="white" fontSize="10">
+          <textPath className="text-white" href="#circlePath" startOffset="10%">
+            who am i 
+          </textPath>
+        </text>
+        <circle
+          cx="50"
+          cy="50"
+          r="37"
+          fill="none"
+          stroke="#FC8181"
+          strokeWidth="2"
+        />
+      </svg>
       </motion.div>
 
       <motion.div
