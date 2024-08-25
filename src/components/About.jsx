@@ -33,18 +33,18 @@ function About() {
           />
         </defs>
         <text fontFamily="Arial" fill="white" fontSize="10">
-          <textPath className="text-white" href="#circlePath" startOffset="10%">
+          <textPath className="capitalize" href="#circlePath" startOffset="7%">
             who am i 
           </textPath>
         </text>
-        <circle
+        {/* <circle
           cx="50"
           cy="50"
           r="37"
           fill="none"
           stroke="#FC8181"
           strokeWidth="2"
-        />
+        /> */}
       </svg>
       </motion.div>
 
