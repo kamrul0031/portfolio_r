@@ -16,12 +16,12 @@ function About() {
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-t border-r relative md:h-[22rem] md:col-span-2 md:row-span-3 bg-slate-800 rounded-[2rem] p-5 flex flex-col gap-2 items-center"
+        className="border-t border-r relative md:h-[16rem] md:col-span-2 md:row-span-3 bg-slate-800 rounded-[2rem] p-5 flex flex-col gap-2 items-center"
       >
-        <img className="rounded-full md:h-[20rem]" src={ProImg} alt="" />
+        <img className="rounded-full md:h-[14rem]" src={ProImg} alt="" />
       <svg
         viewBox="0 0 100 100"
-        className=" md:h-[20rem] h-[22rem] absolute "
+        className=" md:h-[20rem] h-[22rem] absolute top-0"
       >
         <defs>
           <path
@@ -32,8 +32,8 @@ function About() {
                a 37,37 0 1,1 -74,0"
           />
         </defs>
-        <text fontFamily="Arial" fill="white" fontSize="10">
-          <textPath className="capitalize" href="#circlePath" startOffset="7%">
+        <text fontFamily="cursive" fill="white" fontSize="10">
+          <textPath className="capitalize" href="#circlePath" startOffset="15%">
             who am i 
           </textPath>
         </text>
@@ -52,7 +52,7 @@ function About() {
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-b border-l md:col-span-4 md:row-span-2 bg-slate-800 rounded-[2rem]  p-7 flex flex-col gap-2 justify-center"
+        className="border-b border-l md:col-span-4 md:row-span-1 bg-slate-800 rounded-[2rem]  p-7 flex flex-col gap-2 justify-center"
       >
         <h1 className="uppercase text-2xl font-bold">mkh tamim</h1>
         <p className="text-right">
@@ -121,7 +121,7 @@ function About() {
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-r border-b bg-slate-800 md:row-span-3 md:col-span-2 rounded-[2rem] p-9 flex flex-col gap-4 justify-center"
+        className="border-r border-b bg-slate-800 md:row-span-2 md:col-span-2 rounded-[2rem] p-9 flex flex-col gap-4 justify-center"
       >
         <h1 className="uppercase text-xl font-medium">profiles</h1>
         <ul className="flex gap-7 justify-center ">
