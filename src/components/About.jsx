@@ -9,23 +9,23 @@ function About() {
       variants={ContainerVariant}
       initial={hidden}
       animate={visible}
-      className="md:px-20 p-5  bg-slate-950 text-white flex flex-col gap-5 "
+      className="md:px-20 p-5 md:grid md:grid-cols-6 bg-slate-950 text-white flex flex-col gap-5 "
     >
       <motion.div
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-t border-r bg-slate-800 rounded-[2rem] p-5 flex flex-col gap-2 items-center"
+        className="border-t border-r md:relative md:h-[22rem] md:col-span-2 md:row-span-3 bg-slate-800 rounded-[2rem] p-5 flex flex-col gap-2 items-center"
       >
-        <img className="rounded-full" src={ProImg} alt="" />
-        <h1 className="capitalize text-2xl font-bold font-mono md:hidden">who am i </h1>
+        <img className="rounded-full md:h-[20rem]" src={ProImg} alt="" />
+        <h1 className="capitalize text-2xl font-bold font-mono md:-rotate-45 md:top-10 md:absolute md:left-0">who am i </h1>
       </motion.div>
 
       <motion.div
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-b border-l bg-slate-800 rounded-[2rem]  p-7 flex flex-col gap-2 justify-center"
+        className="border-b border-l md:col-span-4 md:row-span-2 bg-slate-800 rounded-[2rem]  p-7 flex flex-col gap-2 justify-center"
       >
         <h1 className="uppercase text-2xl font-bold">mkh tamim</h1>
         <p className="text-right">
@@ -40,7 +40,7 @@ function About() {
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-b border-r bg-slate-800 rounded-[2rem] p-9 flex flex-col gap-2 justify-center"
+        className="border-b border-r md:row-span-4 md:col-span-2 bg-slate-800 rounded-[2rem] p-9 flex flex-col gap-2 justify-center"
       >
         <h1 className="uppercase text-xl font-medium">experience</h1>
         <ul className="capitalize flex flex-col gap-5">
@@ -62,7 +62,7 @@ function About() {
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-b border-l  bg-slate-800 rounded-[2rem] p-9 flex flex-col gap-2 justify-center"
+        className="border-b border-l md:row-span-4 md:col-span-2 bg-slate-800 rounded-[2rem] p-9 flex flex-col gap-2 justify-center"
       >
         <h1 className="uppercase text-xl font-medium">education</h1>
         <ul className="capitalize flex flex-col gap-5">
@@ -94,7 +94,7 @@ function About() {
         variants={ContainerVariant}
         initial={hidden}
         whileInView={visible}
-        className="border-r border-b bg-slate-800  rounded-[2rem] p-9 flex flex-col gap-4 justify-center"
+        className="border-r border-b bg-slate-800 md:row-span-3 md:col-span-2 rounded-[2rem] p-9 flex flex-col gap-4 justify-center"
       >
         <h1 className="uppercase text-xl font-medium">profiles</h1>
         <ul className="flex gap-7 justify-center ">
