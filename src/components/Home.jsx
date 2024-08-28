@@ -84,7 +84,7 @@ function Home() {
       <motion.div
         initial={ContainerVariant.hidden}
         whileInView={ContainerVariant.visible}
-        className="h-24 relative overflow-hidden bg-slate-800 md:hidden rounded-[1rem] grid place-items-center text-2xl text-white capitalize font-mono font-bold"
+        className="h-24 z-10 relative overflow-hidden bg-slate-800 md:hidden rounded-[1rem] grid place-items-center text-2xl text-white capitalize font-mono font-bold"
       >
         <span className="absolute top-2 left-[-2rem] bg-red-400 px-12  text-lg font-sans rotate-[-30deg] text-slate-950">
           dev
