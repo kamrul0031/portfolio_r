@@ -6,6 +6,7 @@ const Home = lazy(()=> import('./components/Home'))
 const About = lazy(()=> import('./components/About'))
 const Contact = lazy(()=> import('./components/Contact'))
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import ParticleBg from './particleBg/ParticleBg';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
+      <ParticleBg/>
       <Footer/>
       
     </div>
