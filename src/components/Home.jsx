@@ -21,7 +21,7 @@ function Home() {
       <motion.div
         initial={ContainerVariant.hidden}
         whileInView={ContainerVariant.visible}
-        className=" md:col-span-2 md:row-span-7 p-8 bg-slate-800 text-white rounded-[2rem] flex gap-2 flex-col md:flex-row items-center"
+        className=" md:col-span-2 z-10 md:row-span-7 p-8 bg-slate-800 text-white rounded-[2rem] flex gap-2 flex-col md:flex-row items-center"
       >
         <div className="relative flex ">
           <div className="">
@@ -115,7 +115,7 @@ function Home() {
       <motion.div
         initial={ContainerVariant.hidden}
         whileInView={ContainerVariant.visible}
-        className="h-16 md:h-auto md:col-span-2 md:row-span-1 bg-slate-800 rounded-[1rem] text-center text-white text-sm grid place-items-center"
+        className="h-16 md:h-auto z-10 md:col-span-2 md:row-span-1 bg-slate-800 rounded-[1rem] text-center text-white text-sm grid place-items-center"
       >
         <h1>
           Thanks for visiting! Feel free to consult for work opportunities.
@@ -124,7 +124,7 @@ function Home() {
       <motion.div
         initial={ContainerVariant.hidden}
         whileInView={ContainerVariant.visible}
-        className="h-74 md:h-auto md:row-span-6 rounded-[2rem] text-white bg-slate-800 flex flex-col justify-between p-5"
+        className="h-74 z-10 md:h-auto md:row-span-6 rounded-[2rem] text-white bg-slate-800 flex flex-col justify-between p-5"
       >
         <img
           className="object-cover h-3/4 p-5 scale-125"
@@ -155,7 +155,7 @@ function Home() {
       <motion.div
         initial={ContainerVariant.hidden}
         whileInView={ContainerVariant.visible}
-        className="h-74 md:h-auto md:row-span-6 rounded-[2rem] text-white bg-slate-800 flex flex-col justify-between p-5"
+        className="h-74 z-10 md:h-auto md:row-span-6 rounded-[2rem] text-white bg-slate-800 flex flex-col justify-between p-5"
       >
         <img className="object-cover h-3/4 p-5 " src={WorkImg} alt="" />
         <ul className="capitalize flex items-center justify-between ">
@@ -182,7 +182,7 @@ function Home() {
       <motion.div
         initial={ContainerVariant.hidden}
         whileInView={ContainerVariant.visible}
-        className="h-74 md:h-auto md:row-span-5 rounded-[2rem] text-white bg-slate-800 flex gap-5 flex-col justify-between p-5"
+        className="h-74 z-10 md:h-auto md:row-span-5 rounded-[2rem] text-white bg-slate-800 flex gap-5 flex-col justify-between p-5"
       >
         <ul className="size-14 flex justify-center w-full">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -231,7 +231,7 @@ function Home() {
       <motion.div
         initial={ContainerVariant.hidden}
         whileInView={ContainerVariant.visible}
-        className="h-74 md:h-auto md:row-span-5 md:col-span-2 rounded-[2rem] text-white bg-slate-800 flex gap-5 flex-col justify-between p-5"
+        className="h-74 z-10 md:h-auto md:row-span-5 md:col-span-2 rounded-[2rem] text-white bg-slate-800 flex gap-5 flex-col justify-between p-5"
       >
         <ul className="size-14 flex gap-3 items-center text-2xl mt-7 justify-center w-full">
           <svg
@@ -313,7 +313,7 @@ function Home() {
       <motion.div
         initial={ContainerVariant.hidden}
         whileInView={ContainerVariant.visible}
-        className="h-74 md:h-auto md:row-span-5 rounded-[2rem] text-white bg-slate-800 flex gap-5 flex-col justify-between p-5"
+        className="h-74 z-10 md:h-auto md:row-span-5 rounded-[2rem] text-white bg-slate-800 flex gap-5 flex-col justify-between p-5"
       >
         <ul className="size-24 flex flex-col items-center justify-center w-full">
           <svg
