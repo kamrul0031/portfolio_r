@@ -18,22 +18,7 @@ function Home() {
       animate={visible}
       className="bg-slate-950 flex flex-col md:grid md:grid-cols-4 md:grid-rows-12 gap-3 md:px-20 px-5"
     >
-      <motion.div
-        initial={ContainerVariant.hidden}
-        whileInView={ContainerVariant.visible}
-        className=" md:col-span-2 z-10 md:row-span-7 p-8 bg-slate-800 text-white rounded-[2rem] flex gap-2 flex-col md:flex-row items-center"
-      >
-        <div className="relative flex ">
-          <div className="">
-            <LazyLoadImage
-              className="rounded-full md:w-[27rem]"
-              src={ProImg}
-              alt="profile image"
-              effect="blur" // Optional blur effect
-            />
-          </div>
-
-            <motion.img
+      <motion.img
               animate={{
                 opacity: [0, 1],
                 scale: [0, 1, 1.4, 1.6, 1.4, 1, 1.4, 1, 5, 50, 0],
@@ -44,10 +29,24 @@ function Home() {
                 delay: 1,
                 duration: 2.8,
               }}
-              className="rounded-full w-20 z-10  absolute right-10 bottom-8"
+              className="rounded-full w-20 z-20 absolute top-64 md:top-72 md:left-32 left-20"
               src={Alexa}
               alt=""
             />
+      <motion.div
+        initial={ContainerVariant.hidden}
+        whileInView={ContainerVariant.visible}
+        className=" md:col-span-2 z-10 md:row-span-7 p-8 bg-slate-800 text-white rounded-[2rem] flex gap-2 flex-col md:flex-row items-center"
+      >
+        <div className=" flex ">
+          <div className="">
+            <LazyLoadImage
+              className="rounded-full md:w-[27rem]"
+              src={ProImg}
+              alt="profile image"
+              effect="blur" // Optional blur effect
+            />
+          </div>
         </div>
         <ul className="flex flex-col items-center md:gap-4">
           <h1 className="font-bold text-4xl">M KH T@mim</h1>
