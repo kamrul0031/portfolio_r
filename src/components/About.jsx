@@ -59,7 +59,7 @@ function About() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo
           natus repellendus eveniet minima dolor tempore necessitatibus, ab
           soluta temporibus porro eligendi consequuntur amet numquam possimus
-          odio ducimus ipsam reprehenderit.
+          odio ducimus ipsam reprehenderit.sdfsdf
         </p>
       </motion.div>
 
